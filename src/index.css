@@ -21,6 +21,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--default-bg);
   color: var(--white-color);
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 code {
@@ -68,6 +70,14 @@ input {
   border: 0;
   outline: 0;
   color: inherit;
+}
+
+.relative {
+  position: relative;
+}
+
+section {
+  position: relative;
 }
 
 .container {

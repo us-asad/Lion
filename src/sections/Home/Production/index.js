@@ -1,4 +1,5 @@
 import React from 'react'
+import { PinkBg } from 'subcomponents';
 import "./index.css";
 
 export default function HomeProduction() {
@@ -24,6 +25,8 @@ export default function HomeProduction() {
           />
         </div>
       </div>
+      <PinkBg style={{ top: "1000px", left: "-500px" }} />
+      <PinkBg light style={{ top: "300px", right: "-800px" }} />
     </section>
   )
 }

@@ -2,6 +2,7 @@ import { SplideSlide } from '@splidejs/react-splide';
 import { SplideSlider } from 'components';
 import { homemain_slides } from 'data';
 import React from 'react'
+import { PinkBg } from 'subcomponents';
 import "./index.css";
 
 const splideOpts = {
@@ -33,15 +34,10 @@ export default function HomeMain() {
           </SplideSlide>
           ))}
         </SplideSlider>
-        {/* {homemain_slides.map((slide, i) => (
-          <div key={i} className='homemain__slide'>
-            <img src={slide} alt="Lion Slide" className='homemain__slide-img' />
-          </div>
-        ))}
-        <SliderBtn
-          isPrev
-        />
-        <SliderBtn /> */}
+        <PinkBg style={{ top: "-600px", left: "-1000px" }} />
+        <PinkBg style={{ top: "100px", left: "-1000px" }} />
+        <PinkBg style={{ top: "100px", right: "-1000px" }} />
+        <PinkBg style={{ top: "-600px", left: "400px" }} />
       </div>
     </div>
   )

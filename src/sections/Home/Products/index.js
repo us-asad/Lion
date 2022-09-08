@@ -2,6 +2,7 @@ import { SplideSlide } from '@splidejs/react-splide'
 import { SplideSlider } from 'components';
 import { homeproducts } from 'data'
 import React from 'react'
+import { PinkBg } from 'subcomponents';
 import "./index.css";
 
 export default function HomeProducts() {
@@ -28,6 +29,8 @@ export default function HomeProducts() {
           </SplideSlider>
         </div>
       </div>
+      <PinkBg light style={{ top: "600px", left: "0px" }} />
+      <PinkBg style={{ top: "1000px", right: "-800px" }} />
     </section>
   )
 }
