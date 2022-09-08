@@ -1,0 +1,35 @@
+.header {
+    padding: 40px 0;
+}
+
+.header__items-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    object-fit: contain;
+}
+
+.header__links {
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header__link {
+    cursor: pointer;
+}
+
+.header__btn {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: var(--pink-100);
+    border-radius: 13px;
+    color: var(--black-color);
+    cursor: pointer;
+}
+

@@ -1,0 +1,32 @@
+
+.slides-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) !important;
+  font-size: 25px;
+  padding: 3px;
+  border-radius: 50%;
+  background: var(--pink-100);
+  color: var(--black-color);
+  display: grid;
+  place-content: center;
+  transition: .3s;
+  border: 2px solid var(--pink-100);
+  cursor: pointer;
+
+}
+
+.slides-btn:hover {
+  background-color: transparent;
+  color: var(--white-color);
+}
+
+.slides-prev {
+  left: -50px !important;
+  right: inherit !important;
+}
+
+.slides-next {
+  right: -50px !important;
+  left: inherit !important;
+}

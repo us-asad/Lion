@@ -1,0 +1,39 @@
+.homeproducts {
+  padding: 150px 0;
+}
+
+
+.homeproducts__product {
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.homeproducts__product:hover .homeproducts__product-img {
+  border-top-right-radius: 0px;
+}
+
+.homeproducts__product-img {
+  width: 70%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 9999px;
+  transition: .3s;
+}
+
+.homeproducts__wrapper {
+  width: 700px;
+  margin: auto;
+}
+
+.homeproducts__title {
+  margin-bottom: 80px;
+}
+
+.slide-prev-transforms {
+  transform: translateY(-50%) rotate(180deg) !important;
+}
+
+
+
