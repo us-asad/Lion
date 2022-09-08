@@ -2,6 +2,7 @@
   --default-bg: #1C1C1C;
   --white-color: #fff;
   --pink-100: #FCD4A1;
+  --pink-text: #FED6A2;
   --black-color: #000;
 }
 
@@ -27,11 +28,23 @@ code {
     monospace;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .section__title {
   font-size: 53.93px;
-  line-height: 20.22px;
+  line-height: 60px;
   font-weight: 600;
-  color: #FED6A2;
+  color: var(--pink-text);
   text-align: center;
 }
 
@@ -47,6 +60,13 @@ a {
 button {
   border: 0;
   background-color: transparent;
+  color: inherit;
+}
+
+input {
+  background: transparent;
+  border: 0;
+  outline: 0;
   color: inherit;
 }
 

@@ -1,25 +1,23 @@
 import { SplideSlide } from '@splidejs/react-splide'
-import { SplideSlider } from 'components';
+import { SplideSlider } from 'components'
 import { homeproducts } from 'data'
 import React from 'react'
 import "./index.css";
 
-export default function HomeProducts() {
+export default function HomeBlog() {
   return (
-    <section className='homeproducts'>
+    <section className="homeblog">
       <div className="container">
-        <h3 className="section__title homeproducts__title">
-          Наши продукты
-        </h3>
+        <h2 className="section__title homeblog__title">Новости Лиона</h2>
         <div className='homeproducts__wrapper'>
           <SplideSlider>
             {homeproducts.map((prd, i) => (
               <SplideSlide key={i}>
-                <div className='homeproducts__product'>
+                <div className='homeproducts__product blog__item'>
                   <img
                     src={prd.image_url}
                     alt={prd.name}
-                    className="homeproducts__product-img"
+                    className="homeproducts__product-img blog__item-img"
                   />
                   <p className='homeproducts__product-name'>{prd.name}</p>
                 </div>

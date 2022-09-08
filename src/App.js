@@ -11,7 +11,6 @@ export default function App() {
         <Route path='/' element={<Home />} />
       </Routes>
       <Footer />
-      <div style={{height: "10000px", background: "#ccc"}} />
     </div>
   )
 }

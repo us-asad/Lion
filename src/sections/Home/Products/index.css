@@ -1,10 +1,10 @@
 .homeproducts {
-  padding: 150px 0;
+  padding: 150px 0 100px;
 }
 
 
 .homeproducts__product {
-  height: 300px;
+  height: 500px;
   margin: auto;
   text-align: center;
   cursor: pointer;
@@ -16,14 +16,19 @@
 
 .homeproducts__product-img {
   width: 70%;
-  height: 90%;
+  height: 80%;
   object-fit: cover;
   border-radius: 9999px;
   transition: .3s;
 }
 
+.homeproducts__product-name {
+  color: var(--pink-text);
+  margin-top: 20px
+}
+
 .homeproducts__wrapper {
-  width: 700px;
+  width: 1000px;
   margin: auto;
 }
 

@@ -1,0 +1,17 @@
+.homepartners__logos {
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+  background-color: var(--pink-text);
+}
+
+.homepartners__title {
+  margin: 120px 0 80px;
+}
+
+.homepartners__logo {
+  width: 200px;
+  height: 50px;
+  object-fit: contain;
+}
+

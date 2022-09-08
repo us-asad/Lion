@@ -1,0 +1,21 @@
+.homeblog {
+  padding: 100px 0;
+}
+
+.homeblog__title {
+  margin-bottom: 100px;
+}
+
+.blog__item-img {
+  border-radius: 0;
+  border-top-left-radius: 100px !important;
+  border-bottom-right-radius: 100px !important;
+  transition: 1s;
+}
+
+.blog__item:hover .blog__item-img {
+  border-radius: 0 !important;
+  border-top-right-radius: 100px !important;
+  border-bottom-left-radius: 100px !important;
+}
+

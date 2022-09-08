@@ -1,0 +1,36 @@
+.homeproduction .container {
+  display: flex;
+
+}
+
+.homeproduction__left, .homeproduction__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: center;
+  position: relative;
+}
+
+.homeproduction__left-title {
+  width: 70%;
+  margin-right: auto;
+  text-align: start !important;
+  margin-bottom: 40px;
+}
+
+.homeproduction__left-text {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: var(--pink-text);
+  opacity: .8;
+}
+
+.homeproduction__right-btn {
+  position: absolute;
+  top: 20px;
+  right: 130px;
+}
+
