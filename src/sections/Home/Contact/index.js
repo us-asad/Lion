@@ -57,7 +57,7 @@ export default function Contact() {
           />
         </div>
       </div>
-      <h1 className='contact__bottom-text' style={{transform: `translateX(-${(scrollY - 3000) * 0.7}px)`}}>
+      <h1 className='contact__bottom-text' style={{transform: `translateX(-${(scrollY - 3000) * 0.5}px)`}}>
         <span>LION LETHER BELT</span>
         <span>LION LETHER BELT</span>
         <span>LION LETHER BELT</span>

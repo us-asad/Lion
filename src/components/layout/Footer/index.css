@@ -2,6 +2,7 @@
   padding: 70px 40px;
   position: relative;
   z-index: -1;
+  padding-top: 100px;
 }
 
 .footer__items {
