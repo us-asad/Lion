@@ -5,12 +5,14 @@ import { Route, Routes } from 'react-router-dom'
 
 export default function App() {
   return (
-    <div>
-      <Header />
-      <Routes>
-        <Route path='/' element={<Home />} />
-      </Routes>
+    <>
+      <div className='parallax-container'>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }

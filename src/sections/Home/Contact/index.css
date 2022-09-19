@@ -1,5 +1,6 @@
 .contact {
   padding: 100px 0 70px;
+  overflow-x: hidden;
 }
 
 .contact .container {
@@ -53,5 +54,20 @@
 
 .contact__right-icon {
   right: 160px;
+}
+
+.contact__bottom-text {
+  font-size: 130px;
+  padding-top: 80px;
+  white-space: nowrap;
+  transform: translateX(0);
+  transition: .3s;
+  display: flex;
+  gap: 100px;
+  background: -webkit-linear-gradient(rgb(207, 57, 57), rgb(193, 68, 207));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: max-content;
 }
 

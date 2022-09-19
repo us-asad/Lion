@@ -1,10 +1,9 @@
-import React from 'react'
 import { HomeAbout, HomeBlog, HomeContact, HomeMain, HomePartners, HomeProduction, HomeProducts } from 'sections'
 import { Line } from 'subcomponents'
 
 export default function Home() {
   return (
-    <>
+    <div style={{position: "relative", zIndex: 5}}>
       <HomeMain />
       <div className='relative'>
         <HomeProducts />
@@ -17,6 +16,6 @@ export default function Home() {
       <HomeProduction />
       <HomePartners />
       <HomeContact />
-    </>
+    </div>
   )
 }

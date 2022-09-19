@@ -88,6 +88,25 @@ section {
   z-index: 2;
 }
 
+.parallax-container {
+  position: relative;
+  background-color: var(--default-bg);
+  z-index: 10;
+}
+
+.placeholder {
+  z-index: 6;
+  position: relative;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  display: block;
+}
+
 @media (max-width: 1420px) {
   .container {
     width: 1100px;
@@ -130,4 +149,3 @@ section {
     width: 90%;
   }
 }
-

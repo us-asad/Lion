@@ -1,5 +1,7 @@
-.footer {
+.footer__top {
   padding: 70px 40px;
+  position: relative;
+  z-index: -1;
 }
 
 .footer__items {

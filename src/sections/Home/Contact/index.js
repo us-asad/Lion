@@ -1,11 +1,26 @@
 import React from 'react'
+import { useEffect } from 'react';
+import { useState } from 'react';
 import "./index.css";
 
 export default function Contact() {
+  const [scrollY, setScrollY] = useState(0);
+  const handleScroll = () => setScrollY(window.scrollY);
+
   const submit = e => {
     e.preventDefault();
   }
-  
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    }
+  }, []);
+
+  console.log(scrollY - 4000)
+
   return (
     <section className="contact">
       <div className="container">
@@ -42,6 +57,19 @@ export default function Contact() {
           />
         </div>
       </div>
+      <h1 className='contact__bottom-text' style={{transform: `translateX(-${(scrollY - 3000) * 0.7}px)`}}>
+        <span>LION LETHER BELT</span>
+        <span>LION LETHER BELT</span>
+        <span>LION LETHER BELT</span>
+        <span>LION LETHER BELT</span>
+        <span>LION LETHER BELT</span>
+        <span>LION LETHER BELT</span>
+        <span>LION LETHER BELT</span>
+        <span>LION LETHER BELT</span>
+        <span>LION LETHER BELT</span>
+        <span>LION LETHER BELT</span>
+        <span>LION LETHER BELT</span>
+      </h1>
     </section>
   )
 }
