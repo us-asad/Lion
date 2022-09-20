@@ -18,9 +18,12 @@ const splideOpts = {
   }
 }
 
-export default function SplideSlider({ options, children }) {
+export default function SplideSlider({ options, children, items }) {
   return (
-    <Splide hasTrack={false} options={options || splideOpts}>
+    <Splide
+      hasTrack={false}
+      options={options || splideOpts}
+    >
       <div className="splide__arrows splide__arrows--ltr">
         <SliderBtn
           isPrev

@@ -15,6 +15,25 @@ export const homemain_slides = [
   "/assets/images/demo-belt.webp",
 ];
 
+export const main_slides = [
+  {
+    image_url: "/assets/images/main-img.png",
+    name: "Gucci 1650ti"
+  },
+  {
+    image_url: "/assets/images/main-img.png",
+    name: "Gucci 1650ti"
+  },
+  {
+    image_url: "/assets/images/main-img.png",
+    name: "Gucci 1650ti"
+  },
+  {
+    image_url: "/assets/images/main-img.png",
+    name: "Gucci 1650ti"
+  }
+]
+
 export const homeproducts = [
   {
     image_url: "/assets/images/demo-belt.webp",
